@@ -10,6 +10,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "1.1.4"
   },
+  "homepage": "https://hejianxinsir.github.io/react-todo-third/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -22,7 +23,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
