@@ -1,0 +1,15 @@
+
+
+.App{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0),0,0,0.1;
+  min-width: 30em;
+  max-height: 90vh;
+
+  background: #fff;
+  padding: 20px;
+  margin: 2em;
+
+  text-align: center;
+}
