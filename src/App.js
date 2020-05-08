@@ -29,7 +29,7 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <h1>我的代办</h1>
+        <h1>我的待办</h1>
         <div className="inputWrapper">
           <TodoInput
             content={this.state.newTodo}
