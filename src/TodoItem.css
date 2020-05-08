@@ -8,4 +8,15 @@
 
 .TodoItem > .title{
   flex-grow: 1;
+  margin-left: 10px;
+}
+
+.TodoItem .deleteBtn{
+  padding: 3px 5px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.TodoItem .deleteBtn:focus{
+  outline: none;
+  border: 1px solid lightgray;
 }
