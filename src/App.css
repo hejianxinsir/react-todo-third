@@ -5,17 +5,23 @@
   min-width: 30em;
   max-height: 90vh;
 
-  background: #fff;
+  background: rgba(0,0,0,0.2);
   padding: 20px;
   margin: 2em;
+
+  overflow: auto;
+  
 }
 .App > h1{
   text-align: center;
+  color: #fff;
 }
 
-.App > .todoList > li:nth-child(odd){
-  background: #eee;
-}
-.App > .todoList > li:nth-child(even){
+/* .App > .todoList > li:nth-child(odd){
   background: transparent;
+} */
+.App > .todoList > li{
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
 }
